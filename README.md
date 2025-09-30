@@ -134,7 +134,7 @@ python3 src/simple_arm_teleop/scripts/keyboard_teleop_fixed.py
 ```bash
 cd ~/ros2_ws
 source install/setup.bash
-ros2 launch simple_arm_teleop test_robot.launch.py
+ros2 launch simple_arm_teleop simple_arm_teleop.launch.py
 ```
 
 **Terminal 2: Keyboard Override**
@@ -313,5 +313,6 @@ For issues and questions:
 ---
 
 **🎉 Congratulations on building your own 6DOF robotic arm teleoperation system!** 🦾
+
 
 *Happy teleoperating!* 🎮
